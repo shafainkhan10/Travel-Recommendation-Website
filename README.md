@@ -17,16 +17,3 @@ A simple, multi‑page travel recommendation site built with **HTML, CSS, and va
 - Temple recommendations with 2 images (2 pts)
 - Country‑based recommendations with 2 images (2 pts)
 
-## Run locally
-Just open `index.html` in a browser.
-
-## Deploy to GitHub Pages
-1. Create a **public** repo (e.g., `travel-recommendation-website`).
-2. Upload all files from this folder.
-3. In the repo: **Settings → Pages → Branch: `main` (or `master`) / root** → Save.
-4. Your site will be available at: `https://<your-username>.github.io/travel-recommendation-website/`
-
-## Submission
-Provide:
-- Public repo URL, e.g., `https://github.com/<your-username>/travel-recommendation-website`
-- Live site URL, e.g., `https://<your-username>.github.io/travel-recommendation-website/`
