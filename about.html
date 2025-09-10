@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us — WanderWise</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body data-page="about">
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">WanderWise</a>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Our mission</h2>
+      <p class="lead">
+        WanderWise helps travelers make confident decisions with concise, visual, and
+        personalized recommendations. We aggregate highlights into beautiful cards
+        so you can compare options quickly.
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1600&auto=format&fit=crop" alt="Team on a trail"/>
+        <div class="content">
+          <h3>User‑centric design</h3>
+          <p>Fast navigation, clean layouts, and accessible components — built for everyone.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=1600&auto=format&fit=crop" alt="Map planning"/>
+        <div class="content">
+          <h3>Curated data</h3>
+          <p>Each pick includes a short blurb and visuals to help you decide at a glance.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1600&auto=format&fit=crop" alt="Sunset beach"/>
+        <div class="content">
+          <h3>Built with vanilla JS</h3>
+          <p>No frameworks required — simple, portable, and fast to deploy to GitHub Pages.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> WanderWise · <a href="https://github.com/">GitHub</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
